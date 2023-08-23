@@ -1,8 +1,20 @@
+# Biconomy SDK + Spheron Starter Kit
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+This is a very basic implementation of a login page that generates a Smart Account for new web2 users and gives them access to a page for uploading files powered by Spheron Browser Upload SDK.
 
 ## Getting Started
 
 First, run the development server:
+
+```bash
+npm install
+# or
+yarn 
+# or
+pnpm install
+```
 
 ```bash
 npm run dev
@@ -14,13 +26,12 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## API Route
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+A single API Route is reesponsible for creating a token for file uploads. Make sure to rename .env.example to .env and get your token as mentioned in the [Spheron Browser Upload Docs](https://docs.spheron.network/sdk/browser/).
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/upload.ts`.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 

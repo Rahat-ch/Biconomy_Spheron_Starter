@@ -9,14 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@biconomy/account": "^3.1.2-alpha.0",
+    "@biconomy/bundler": "^3.1.2-alpha.0",
+    "@biconomy/common": "^3.1.2-alpha.0",
+    "@biconomy/core-types": "^3.1.2-alpha.0",
+    "@biconomy/particle-auth": "^3.0.1-alpha.0",
+    "@biconomy/paymaster": "^3.1.2-alpha.0",
+    "@spheron/browser-upload": "^1.0.5",
+    "@spheron/storage": "^1.0.19",
     "@types/node": "20.5.3",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
+    "add": "^2.0.6",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.19",
+    "ethers": "5.7.2",
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.1.6"
+    "typescript": "5.1.6",
+    "yarn": "^1.22.19"
   }
 }
